@@ -1,8 +1,8 @@
 const express=require('express')
 const mongoose=require('mongoose')
 const cors=require('cors')
-const userModel=require('./user')
-const UserModel = require('./user')
+const userModel=require('./models/user')
+const UserModel = require('./models/user')
 
 
 //cors->cross origin resource sharing)
